@@ -1,0 +1,7 @@
+#Sat Oct 22 17:37:50 CDT 2022
+base.1=/Users/samdelgado/Detox/Detox-Project/android/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/10/classes.dex
+path.1=10/classes.dex
+base.0=/Users/samdelgado/Detox/Detox-Project/android/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=0/classes.dex
