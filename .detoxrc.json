@@ -1,27 +1,31 @@
 {
   "testRunner": "jest",
   "runnerConfig": "e2e/config.json",
-  "skipLegacyWorkersInjection": true,
-  "apps": {
-      "android": {
-          "type": "android.apk",
-          "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
-          "build": "cd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug && cd .."
-
-      }
-  },
-  "devices": {
-      "emulator": {
-          "type": "android.emulator",
-          "device": {
-              "avdName": "Pixel_3a_API_30_x86"
-          }
-      }
-  },
   "configurations": {
-      "android": {
-          "device": "emulator",
-          "app": "android"
+    "android": {
+      "type": "android.emulator",
+      "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
+      "build": "cd android; ./gradlew assembleDebug assembleAndroidTest -DtestBiuldType=debug; cd -",
+      "device": {
+        "avdName": "DetoxProject"
       }
-  }
+    }
+  },
+"skipLegacyWorkersInjection": true,
+"apps": {
+    "android": {
+        "type": "android.apk",
+        "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
+        "build": "cd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug && cd .."
+
+    }
+},
+"devices": {
+    "emulator": {
+        "type": "android.emulator",
+        "device": {
+            "avdName": "DetoxProject"
+        }
+    }
+}
 }

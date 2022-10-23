@@ -7,7 +7,7 @@ class LogInScreen extends React.Component {
     render() {  
         return (  
           <View style={{ flex: 1, alignItems: 'center' }}>
-             <Text style={styles.title}>Welcome</Text>
+             <Text testID='welcome' style={styles.title}>Welcome</Text>
             <Text>Username</Text>
             <TextInput style={styles.input} onChangeText={(value) => this.setState({ username: value })} />
             <Text>Password</Text>

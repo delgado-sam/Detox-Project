@@ -99,3 +99,7 @@ Update `avdName` to whichever emulator you want to use to run the tests in.
 Next, we need to build Detox for Android, you will run the following command which will use the `.detoxrc.json` file that we just created.
 
 `detox build --configuration android`
+
+### Run e2e
+
+`npx detox test`
