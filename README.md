@@ -1,10 +1,11 @@
 # Detox Project
 
-Welcome to my React Native & Detox demo project! The purpose of this repository is to provide step by step instructions for configuring Detox with React Native and providing some sample tests and code. I hope this helps!
+Welcome to my React Native & Detox project! 
+The purpose of this repository is to provide step by step instructions for configuring Detox with React Native and providing some sample tests and code.
 
 ## Getting Started with my Sample Project
 
-Follow the steps below to run my sample project with ReactNative and Detox!
+Follow the steps below to run a sample project with ReactNative and Detox
 
 ### Install Dependencies
 
@@ -24,7 +25,7 @@ Update `.detoxrc.json` file to include your AVD name.
     }
 ```
 
-Now that your emulator is created and configured. Run the project!
+Once your emulator is created and configured you can run the project.
 
 `npm run android`
 
@@ -34,7 +35,7 @@ Now that your emulator is created and configured. Run the project!
 
 ## Getting Started with Detox in your own project
 
-Follow the steps below to help get Detox setup in your own React Native project!
+Follow the steps below to help get Detox setup in your own React Native project.
 
 ## Install Dependencies
 
@@ -62,7 +63,7 @@ This command will generate a `.detoxrc.json` and `config.json` file. As well as 
 
 Update the `.detoxrc.json` that was generated or created in our previous step. Verify the `binaryPath` is correct and the `build` command is correct for your project. These are unique to your project setup.
 
-Update `avdName` to whichever emulator you want to use to run the tests in.
+Update `avdName` with your emulator's name.
 
 ```
 {
