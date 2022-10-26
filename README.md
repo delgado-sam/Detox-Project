@@ -103,4 +103,4 @@ Next, we need to build Detox for Android, you will run the following command whi
 
 ### Run e2e
 
-`npx detox test`
+`detox test`
