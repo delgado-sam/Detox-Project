@@ -1,0 +1,4 @@
+#Tue Oct 25 19:43:09 CDT 2022
+base.0=/Users/newman/Dev/Detox-Project/android/app/build/intermediates/dex/releaseAndroidTest/mergeDexReleaseAndroidTest/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

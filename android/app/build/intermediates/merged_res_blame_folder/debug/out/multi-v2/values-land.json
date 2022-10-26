@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.projectdetox.app-mergeDebugResources-20:/values-land/values-land.xml",
+            "outputFile": "com.projectdetox.app-mergeDebugResources-21:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/samdelgado/.gradle/caches/transforms-3/1b40e4574e76bff5831ef4bf4270480d/transformed/appcompat-1.4.1/res/values-land/values-land.xml",
+                    "source": "/Users/newman/.gradle/caches/transforms-3/00a2bc72835f59ab7e8c5ac4d7086ff4/transformed/appcompat-1.4.1/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

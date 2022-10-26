@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.projectdetox.test.app-mergeDebugAndroidTestResources-21:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/newman/.gradle/caches/transforms-3/91187d71158f9e1781cc82a7e472cdec/transformed/appcompat-1.4.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
